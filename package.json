@@ -1,0 +1,18 @@
+{
+  "name": "infrasnap",
+  "version": "1.0.0",
+  "description": "Snapshots and diffs infrastructure configuration files over time",
+  "main": "src/infrasnap.js",
+  "scripts": {
+    "start": "node src/infrasnap.js",
+    "test": "node src/infrasnap.js help && echo Tests passed",
+    "tracker": "node src/achievement-tracker.js",
+    "roadmap": "node src/achievement-tracker.js roadmap",
+    "achievements": "bash scripts/unlock-all.sh",
+    "setup": "bash scripts/setup.sh"
+  },
+  "keywords": ["github", "achievements", "infrasnap", "security", "devops"],
+  "author": "YOUR_USERNAME",
+  "license": "MIT",
+  "engines": { "node": ">=20.0.0" }
+}
